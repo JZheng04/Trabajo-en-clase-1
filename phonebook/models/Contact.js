@@ -9,6 +9,18 @@ const contactSchema = new mongoose.Schema({
     phone: {
         type: String,
         required: true
+    },
+    apellido: {
+        type: String,
+        required: true
+    },
+    edad: {
+        type: String,
+        required: true
+    },
+    correo: {
+        type: String,
+        required: true
     }
 });
 // Creación del modelo de contacto
